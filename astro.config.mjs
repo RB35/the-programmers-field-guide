@@ -675,15 +675,16 @@ export default defineConfig({
                     collapsed: true,
                   },
                 },
-                {
-                  label: "Go Exploring",
-                  collapsed: true,
-                  autogenerate: {
-                    directory:
-                      "book/part-2-organised-code/6-deep-dive-memory/3-explore",
-                    collapsed: true,
-                  },
-                },
+                // TODO: Add back in when Activities are added
+                // {
+                //   label: "Go Exploring",
+                //   collapsed: true,
+                //   autogenerate: {
+                //     directory:
+                //       "book/part-2-organised-code/6-deep-dive-memory/3-explore",
+                //     collapsed: true,
+                //   },
+                // },
                 {
                   label: "Campsite Reflection",
                   collapsed: true,
@@ -899,7 +900,7 @@ export default defineConfig({
                 },
                 {
                   label: "Guided Tour",
-                  link: "book/part-3-programs-as-concepts/1-back-to-c-sharp/1-tour",
+                  link: "book/part-3-programs-as-concepts/1-back-to-c-sharp/1-tour/0-overview",
                 },
                 {
                   label: "Trailside Stop",
